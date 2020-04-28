@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+// Set brand colors
+$primary: rgba(222, 75, 75, 1);
+$black: rgba(60, 60, 60, 1);
+$white: rgba(255, 255, 255, 1);
+$grey: rgba(201, 201, 201, 1);
+$grey-dark: rgba(0, 0, 0, 0.7);
+$danger: rgba(235, 87, 87, 1);
+
+// set size
+$gap: 32px;
+$fullhd: 960px + (2 * $gap);
+
+
+// Update Bulma's global variables
+$family-primary: 'Verdana', sans-serif;
+$family-secondary: 'SF Pro Text', sans-serif;
+
+
+// Import only what you need from Bulma
+@import '../../node_modules/bulma/sass/utilities/_all.sass';
+@import '../../node_modules/bulma/sass/base/_all.sass';
+@import '../../node_modules/bulma/sass/elements/button.sass';
+@import '../../node_modules/bulma/sass/elements/container.sass';
+@import '../../node_modules/bulma/sass/elements/form.sass';
+@import '../../node_modules/bulma/sass/elements/title.sass';
+@import '../../node_modules/bulma/sass/components/navbar.sass';
+@import '../../node_modules/bulma/sass/layout/hero.sass';
+@import '../../node_modules/bulma/sass/layout/section.sass';

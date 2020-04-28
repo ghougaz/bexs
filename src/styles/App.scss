@@ -1,0 +1,98 @@
+@import "./variables";
+
+body {
+    font-family: $family-primary;
+}
+
+.leftMenuContainer {
+    background-color: $primary;
+    height: 596px;
+    width: 352px;
+
+    .content {
+        padding: 53px 0 0 64px;
+
+        .section1 {
+
+            p {
+                color: $white;
+                font-size: 13px;
+                letter-spacing: -0.01px;
+            }
+        }
+
+        .section2 {
+            padding-top: 54px;
+            display: flex;
+            
+            p {
+                padding-left: 15px;
+                line-height: 24px;
+                font-weight: bold;
+                color: $white;
+                font-size: 20px;
+                letter-spacing: -0.01px;
+            }
+        }
+        .section3 {
+            padding-top: 30px;
+
+            .card {
+                position: relative;
+                width: 365px;
+                height: 244px;
+
+                img {
+                    position: absolute;
+                }
+                
+                .cc {
+                    position: absolute;
+                    top: 104.5px;
+                    left: 24px;
+                    width: 314px;
+                    height: 84px;
+
+                    .texts {
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 33px;
+                    }
+
+                    .numbers {
+                        text-align: justify;
+                        font-family: $family-secondary;
+                        font-size: 24px;
+                        line-height: 27px;
+                        letter-spacing: -0.12px;
+                        color: $white;
+                        text-shadow: 0px 1px 2px #000000B3;
+                        word-spacing: 2.6px;
+                    }
+        
+                    .holder {
+                        top: 0;
+                        left: 0;
+                        font-family: $family-secondary;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: $white;
+                        text-shadow: 0px 1px 2px #000000B3;
+                    }
+        
+                    .expire {
+                        
+                        top: 0;
+                        right: 0;
+                        font-family: $family-secondary;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: $white;
+                        text-shadow: 0px 1px 2px #000000B3;
+                    }
+                }
+            }
+
+        }
+    }
+}
